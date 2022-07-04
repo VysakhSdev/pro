@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Neuton:wght@200&family=Passion+One&family=Rubik+Moonrocks&family=Satisfy&family=Six+Caps&display=swap');
+
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #5d001e;
+
+}
+
+.menu {
+    position: fixed;
+    background-color:red;
+    color:blue;
+    width: 100%;
+    margin-top: 0;
+}
+
+/* to display element in straight line*/
+.links {
+    display: inline;
+    /* padding is used to give space between elements*/
+    padding: 30px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+}
+
+/*to delete underline from a tag*/
+a {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+/*pseudo class are used for hover function*/
+.links:hover {
+    font-size: 30px;
+    font-: red;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    background: #e3e3e3;
+    font-family: 'Neuton', serif;
+}
+
+h3 {
+    color: #5d001e;
+
+}
+
+.profile {
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+#name {
+    font-family: 'Six Caps', sans-serif;
+font-size: 50px;
+padding-left: 300px;
+padding-top: -200px;
+color: #5d001e;
+}
+#i{
+    font-size: 30px;
+    color: #5d001e;
+}
+h1{
+    color:  #e3e3e3;;
+}
+
+
+
